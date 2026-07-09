@@ -6,6 +6,7 @@ import './App.css'
 import AddBook from './components/AddBook'
 import SearchBook from './components/SearchBook'
 import DeleteBook from './components/DeleteBook'
+import ViewBooks from './components/ViewBooks'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
     <AddBook/>
     <SearchBook/>
     <DeleteBook/>
+    <ViewBooks/>
     </>
   )
 }
