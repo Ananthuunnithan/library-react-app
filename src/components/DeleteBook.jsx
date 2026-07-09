@@ -1,11 +1,11 @@
 import React from 'react'
 import NavBar from './NavBar'
 
-const SearchBook = () => {
+const DeleteBook = () => {
     return (
         <div>
-            <NavBar/>
-            <div className="container mt-4 mb-4">
+            <NavBar />
+            <div className="container mt-4">
                 <div className="row">
                     <div className="col col-12">
 
@@ -18,7 +18,7 @@ const SearchBook = () => {
                             </div>
                             <div className="col col-12">
 
-                                <button className="btn btn-success">Search</button>
+                                <button className="btn btn-danger">Delete</button>
 
                             </div>
                         </div>
@@ -31,4 +31,4 @@ const SearchBook = () => {
     )
 }
 
-export default SearchBook
+export default DeleteBook
